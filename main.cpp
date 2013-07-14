@@ -7,8 +7,8 @@ int main(int argc, char *argv[])
     Dialog w;
     w.show();
 
-    volatile int i = 0;
-    ++i;
+    volatile int j = 0;
+    ++j;
     
     return a.exec();
 }
